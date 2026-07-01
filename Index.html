@@ -1,55 +1,39 @@
-```html
 <!DOCTYPE html>
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>রেজিস্ট্রেশন - sfearning.com</title>
+    <title>sfearning.com</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; display: flex; justify-content: center; align-items: center; height: 100vh; }
-        .register-container { background-color: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
-        h2 { text-align: center; color: #4a6fa5; margin-bottom: 20px; }
-        .form-group { margin-bottom: 15px; }
-        label { display: block; margin-bottom: 5px; color: #333; }
-        input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
-        button { width: 100%; padding: 12px; background-color: #169b82; color: #fff; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 16px; margin-top: 10px; }
-        button:hover { background-color: #127a65; }
-        .login-link { text-align: center; margin-top: 15px; }
-        .login-link a { color: #4a6fa5; text-decoration: none; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #ffffff; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .logo { font-size: 24px; font-weight: bold; color: #4a6fa5; }
+        .nav-links a { margin-left: 20px; text-decoration: none; color: #333; }
+        .banner { background-image: linear-gradient(135deg, #4a6fa5 0%, #169b82 100%); color: #fff; text-align: center; padding: 60px 20px; }
+        .banner h1 { font-size: 36px; margin-bottom: 20px; }
+        .banner p { font-size: 18px; margin-bottom: 30px; }
+        .btn { background-color: #ff9f1c; color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 10px; }
+        .btn-reg { background-color: #169b82; color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; }
     </style>
 </head>
 <body>
 
-<div class="register-container">
-    <h2>রেজিস্ট্রেশন করুন</h2>
-    <form action="#" method="POST">
-        <div class="form-group">
-            <label for="username">ইউজারনেম</label>
-            <input type="text" id="username" name="username" required>
-        </div>
-        <div class="form-group">
-            <label for="mobile">মোবাইল নম্বর</label>
-            <input type="tel" id="mobile" name="mobile" required>
-        </div>
-        <div class="form-group">
-            <label for="email">জিমেইল এড্রেস</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-            <label for="password">পাসওয়ার্ড</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-        <div class="form-group">
-            <label for="referral">রেফারেল কোড (ঐচ্ছিক)</label>
-            <input type="text" id="referral" name="referral">
-        </div>
-        <button type="submit">রেজিস্ট্রেশন সম্পন্ন করুন</button>
-    </form>
-    <div class="login-link">
-        ইতিমধ্যে অ্যাকাউন্ট আছে? <a href="#">লগইন করুন</a>
+    <header>
+        <div class="logo">sfearning.com</div>
+        <nav class="nav-links">
+            <a href="#">হোম</a>
+            <a href="#">ফিচারস</a>
+            <a href="#">লগইন</a>
+            <a href="#">রেজিস্ট্রেশন</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h1>অনলাইনে ইনকাম করার সবচেয়ে নির্ভরযোগ্য প্ল্যাটফর্ম</h1>
+        <p>সহজ টাস্ক সম্পূর্ণ করে প্রতিদিন ভালো পরিমাণ আয় করুন।</p>
+        <a href="#" class="btn">এখনই শুরু করুন</a>
+        <a href="#" class="btn-reg">রেজিস্ট্রেশন</a>
     </div>
-</div>
 
 </body>
 </html>
-
